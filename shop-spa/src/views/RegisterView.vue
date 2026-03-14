@@ -18,7 +18,7 @@
 
         <label class="field">
           <span>Email</span>
-          <input v-model.trim="form.email" type="email" :class="{ invalid: errors.email }" placeholder="olya@example.com">
+          <input v-model.trim="form.email" type="email" :class="{ invalid: errors.email }" placeholder="name@example.com">
           <small v-if="errors.email" class="error-text">{{ firstError(errors.email) }}</small>
         </label>
 
